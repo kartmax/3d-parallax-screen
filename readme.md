@@ -1,0 +1,1 @@
+Implementation of the parallax effect when hovering the mouse.
