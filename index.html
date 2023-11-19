@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>3D Parallax Screen</title>
+	<meta name="description" content="Simple Starter Description">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/image.jpg">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+
+   <script src="js/common.js" defer></script>
+   <script src="libs/rain.js" defer></script>
+
+</head>
+
+<body>   
+   <div class="logo" style="background-image: url(./images/logo.svg);"></div>
+   <section class="layers">
+      <div class="layers__container">
+         <div class="layers__item layers-1" style="background-image: url(./images/layer-1.jpg);"></div>
+         <div class="layers__item layers-2" style="background-image: url(./images/layer-2.png);"></div>
+         <div class="layers__item layers-3">
+            <div class="hero-content">
+               <h1 class="hero-content__title">natural forest <span>html / css</span></h1>
+               <p class="hero-content__p">Creating a beautiful screen with 3D parallax effect</p>
+               <button class="btn">Start Learning</button>
+            </div>
+         </div>
+         <div class="layers__item layers-4">
+            <canvas class="rain"></canvas>
+         </div>
+         <div class="layers__item layers-5" style="background-image: url(./images/layer-5.png);"></div>
+         <div class="layers__item layers-6" style="background-image: url(./images/layer-6.png);"></div>
+      </div>
+   </section>
+</body>
+</html>
